@@ -70,15 +70,29 @@
     </ul>
 
     <div class="container" >
-        <a href="#"><img src="/img/Favoritos.svg" alt="Meus favoritos" class="container__imagem container__imagem-transparente"></a>
-        <a href="#"><img src="/img/Compras.svg" alt="Carrinhos de compras" class="container__imagem"></a>
-        <a href="#"><img src="/img/Usuario.svg" alt="Meu perfil" class="container__imagem"></a>
+        <a href="#"
+            <img src="/img/Favoritos.svg" alt="Meus favoritos" class="container__imagem container__imagem-transparente">
+        </a>
+        <a href="#" class="container__link">
+            <img src="/img/Compras.svg" alt="Carrinhos de compras" class="container__imagem">
+            <p class="container__texto">
+                Minha sacola
+            </p>
+        </a>
+        <a href="#"  class="container__link"></a>
+            <img src="/img/Usuario.svg" alt="Meu perfil" class="container__imagem">
+            <p class="container__texto">
+                Meu perfil
+            </p>
+        </a>
     </div>
+
     </header>
     <section class="banner">
         <h2 class="banner__titulo">
             Já sabe por onde começar?
         </h2>
+
         <p class="banner__texto">
             Encontre em nossa estante o que precisa para seu desenvolvimento!
         </p>
@@ -88,6 +102,8 @@
         <h2 class="carrosel__titulo">
             Novos Lançamentos
         </h2>
+
+        <div class="carrosel__container">
         <div class="swiper">
             <div class="swiper-pagination"></div>
             <!-- Additional required wrapper -->
@@ -133,13 +149,14 @@
 
                 <a href="#" class="buttons__ancora">Saiba mais</a>
             </div>
-
+        </div>
           </div>
 
           <h2 class="carrosel__titulo background">
             Mais vendidos
         </h2>
 
+        <div class="carrosel__container">
         <div class="swiper">
             <div class="swiper-pagination"></div>
             <!-- Additional required wrapper -->
@@ -187,9 +204,9 @@
 
                 <a href="#" class="buttons__ancora">Saiba mais</a>
             </div>
-
-          </div>
-    </section>
+        </div>
+    </div>
+</section>
     
     <section class="topicos">
         <h2 class="topicos__titulo">TÓPICOS VISITADOS RECENTEMENTE</h2>
